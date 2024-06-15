@@ -1,0 +1,321 @@
+.main{
+    width:450px;
+    height:550px;
+    background:white;
+    border-radius: 16px;
+
+}
+.newtransaction{
+    top:6%;
+    left:5%;
+    position:relative;
+ font-size: 20px;
+}
+.x{
+    top:1%;
+    left: 88%;
+    position:relative;
+    font-size: 28px;
+    color:#787878;
+    cursor:pointer;
+}
+.block{
+    height:40px;
+    width:380px;
+    background: rgba(167,167,167,0.2);
+    top:15px;
+    left:35px;
+    position:relative;
+    border-radius: 10px;
+}
+.blocktext{
+    display:flex;
+    flex-direction: row;
+    top:8px;
+    font-size: 20px;
+    position:relative;
+    left:28px;
+}
+.expenses{
+    display:flex;
+    flex-direction: row;
+    font-size: 16px;
+    position: relative;
+    right:6px;
+    cursor:pointer;
+}
+.income{
+    display:flex;
+    flex-direction: row;
+    font-size: 16px;
+    position: relative;
+    left: 40px;
+    cursor:pointer;
+}
+.transfer{
+        display:flex;
+        flex-direction: row;
+        font-size: 16px;
+        position: relative;
+        left: 90px;
+        cursor:pointer;
+}
+.slider {
+    position: absolute;
+    left:2px;
+    top:4px;
+    height: 32px;
+    width: 122px;
+    background-color: white;
+    border-radius: 5px;
+}
+.input {
+    border: none;
+    outline: none;
+    padding:7px 0px 0px 0px;
+    font-size: 16px;
+    color:black;
+    width: 100%; /* Ensure input takes full width of the container */
+    box-sizing: border-box;
+}
+.input::placeholder {
+   color: #d0d1d0;   
+   
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 64px;
+    width: 380px;
+    border: 2px solid #eaebeb;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    padding: 8px;
+    box-sizing: border-box;
+    top:32px;
+    color: #a4a4a4;
+    font-size: 12px;
+    border-bottom:3px solid #eaebeb;
+}
+
+.container:focus-within {
+    border: 3px solid #4c4c4d; /* Border becomes black when focused */
+}
+
+.container2 {
+    top: 40px;
+    position: relative;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #eaebeb;
+    border-bottom: 3px solid #eaebeb; /* Different border width for the bottom */
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    position: relative;
+    height: 64px;
+    width: 380px;
+    color: #a4a4a4;
+    font-size: 12px;
+}
+.container2:focus-within {
+    border: 3px solid #4c4c4d; /* Border becomes black when focused */
+}
+.select{
+    padding:8px 2px 0px 0px;
+    font-size: 16px;
+    color:#d0d1d0; 
+    width: 100%; /* Ensure input takes full width of the container */
+    box-sizing: border-box;
+}
+.selectvalue{
+    display: flex;
+    flex-direction: row;
+    cursor:pointer;
+    border: none;
+    outline: none;
+
+}
+.down{
+    top:38px;
+    position:absolute;
+    left:340px;
+    color:#d0d1d0; 
+    
+}
+.selected{
+    color:black;
+}
+.glass{
+    background: white;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    cursor:pointer;
+    width:100%;
+    position:relative;
+    left:1px;
+    overflow-y: scroll;
+    z-index: 2;
+    height: 250px;
+    color:#4c4c4d;
+}
+.glass div {
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.errorMessage {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.glass div:hover {
+    background-color: #e0e0e0; 
+}
+.container3 {
+    top: 48px;
+    position: relative;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #eaebeb;
+    border-bottom: 3px solid #eaebeb; /* Different border width for the bottom */
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    position: relative;
+    height: 64px;
+    width: 380px;
+    color: #a4a4a4;
+    font-size: 12px;
+}
+.container3:focus-within {
+    border: 3px solid #4c4c4d; /* Border becomes black when focused */
+}
+.input2{
+    border: none;
+    outline: none;
+    color:black;
+    left:10px;
+    position:relative;
+}
+.input2::placeholder {
+    color: #d0d1d0;   
+    
+ }
+.currency{
+    display: flex;
+    flex-direction: row;
+    padding:8px 0px 0px 0px;
+    align-items: center;
+ font-size: 16px;
+ color:#000000;
+}
+.container4{
+    top: 54px;
+    position: relative;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #eaebeb;
+    border-bottom: 3px solid #eaebeb; /* Different border width for the bottom */
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    position: relative;
+    height: 64px;
+    width: 380px;
+    color: #a4a4a4;
+    font-size: 12px;
+}
+.container4:focus-within {
+    border: 3px solid #4c4c4d; /* Border becomes black when focused */
+}
+.customSelect .MuiOutlinedInput-root {
+    padding: 4px 8px; /* Adjust the padding to decrease the height */
+  }
+  
+  .customSelect .MuiOutlinedInput-root fieldset {
+    border: none; /* Remove the border */
+  }
+  
+  .customSelect .MuiAutocomplete-inputRoot {
+    padding: 4px 8px !important; /* Adjust the padding for the input root */
+  }
+  .searchInput{
+    border: none;
+    outline: none;
+  }
+  .searchInput::placeholder {
+    color: #d0d1d0;   
+    
+ }
+ .container5{
+    top: 62px;
+    position: relative;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #eaebeb;
+    border-bottom: 3px solid #eaebeb; /* Different border width for the bottom */
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    position: relative;
+    height: 64px;
+    width: 380px;
+    color: #a4a4a4;
+    font-size: 12px;
+    
+}
+.container5:focus-within {
+    border: 3px solid #4c4c4d; /* Border becomes black when focused */
+}
+.select2{
+    padding:8px 2px 0px 0px;
+    font-size: 16px;
+    color:#000000; 
+    width: 100%; /* Ensure input takes full width of the container */
+    box-sizing: border-box;
+
+}
+.calendar{
+    position: absolute;
+    top:38px;
+    left:340px;
+    color:#d0d1d0; 
+}
+.putin{
+    top: 76px;
+    position: relative;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #eaebeb;
+    position: relative;
+    height: 40px;
+    width: 380px;
+    color: #000000;
+    font-size: 12px;
+    background:#f4f4f5;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.putin2{
+    top: 76px;
+    position: relative;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid #eaebeb;
+    position: relative;
+    height: 40px;
+    width: 380px;
+    color: #bcbdbd;
+    font-size: 12px;
+    background:#f4f4f5;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
