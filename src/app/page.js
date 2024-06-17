@@ -149,7 +149,7 @@ const ComponentName = () => {
             ...transactionData,
             category
         });
-        setSearchTerm(''); // Clear search term after selecting a category
+        setSearchTerm('');
         setShowCategoryOptions(false);
         checkFormCompletion({ ...transactionData, category });
     };
