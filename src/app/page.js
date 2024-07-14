@@ -707,6 +707,7 @@ const ComponentName = () => {
 
     return (
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", background: "grey", width: "100%", height: "1200px" }}>
+            <div className={styles.maincontainer}>
             <div className={styles.main}>
                 <div style={{ display: "inline-block" }} className={styles.newtransaction}>New transaction</div>
                 <div className={styles.x}>
@@ -726,6 +727,7 @@ const ComponentName = () => {
                     </div>
                     {getContent()}
                 </div>
+            </div>
             </div>
         </div>
     )
