@@ -3,6 +3,8 @@
     height:550px;
     background:white;
     border-radius: 16px;
+    bottom:25%;
+    position:relative;
 
 }
 .newtransaction{
@@ -10,6 +12,7 @@
     left:5%;
     position:relative;
  font-size: 20px;
+ color:black;
 }
 .x{
     top:1%;
@@ -31,6 +34,7 @@
 .blocktext{
     display:flex;
     flex-direction: row;
+    color:black;
     top:8px;
     font-size: 20px;
     position:relative;
@@ -303,7 +307,7 @@
 }
 .putin2{
     top: 76px;
-    position: relative;
+    
     padding: 8px;
     display: flex;
     flex-direction: column;
@@ -318,4 +322,31 @@
     font-size: 16px;
     justify-content: center;
     align-items: center;
+}
+.maincontainer{
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+.paper{
+    height:40%;
+    width:20%;
+    position: relative;
+    right:80%;
+}
+@media (max-width: 412px) {
+    .maincontainer{
+        width:70%;
+        height:70%;
+        justify-content: center;
+        align-items: center;
+        margin-left:90%;
+        position: relative;
+        display:flex;
+        flex-direction: column;
+    }
+
 }
